@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Javascript harjoitus 3</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="scriptit\harj03.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Java Scripit harjoitustehtävä</h1>
+  <p>Jyrki Reijonen - elokuu 2020</p> 
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12" style="background-color:lightgray; color:blue"">
+      <h3>Yritystiedot</h3>
+      <p>Verkkokauppamme välittää kuluttajille eettisesti tarkoituksenmukaisia tuotteita,
+        sahdinvalmistuksesta urheilutarvikkeisiin ja paljon muuta.
+      </p>
+      <p>Tuotteemme on valmistettu maissa, joissa työntekijöille maksetaan kunnon palkka ja
+        ja heidän työaikansa ja olosuhteensa vastaavat Suomalaisia. Eli mitään kamaa ei rahdata
+        toiselta puolen maapalloa, jostain halpatyövoimaa käyttävästä kommarimaasta.
+      </p>
+    </div>
+  </div>
+  <div class="row">
+     
+    	<div class="col-sm-6" style="background-color:lightgray; color:blue">
+      		<h3>Linkkiluettelo</h3>
+      		<p id ="linkit"></p>
+          <button id="b02" onclick="printLinkit()">Tulosta linkit</button>
+      </div>
+        <!--  Tämäkin toimi <div style="background-color:powderblue;color:yellow;"> -->
+        <div class="col-sm-6" style="background-color:lightgray; color:blue">
+       		<h3>Tuoteluettelo</h3>
+      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+          <p id ="tuotteet"></p>
+          <button id="b01" onclick="printTuotteet()">Tulosta tuotteet</button>
+        </div>
+    
+   </div>
+</div>
+
+</body>
+</html>
